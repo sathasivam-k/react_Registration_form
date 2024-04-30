@@ -37,7 +37,7 @@ class RegistrationForm extends Component {
         const {firstname} = this.state
         return(
             <div>
-                <label>FIRST NAME</label>
+                <label htmlFor="firstname">FIRST NAME</label>
                 <input 
                     id="firstname"
                     value = {firstname}
@@ -55,7 +55,7 @@ class RegistrationForm extends Component {
         const {lastname} = this.state
         return(
             <div>
-                <label>LAST NAME</label>
+                <label htmlFor="lastname">LAST NAME</label>
                 <input
                     id="lastname"
                     value={lastname}
